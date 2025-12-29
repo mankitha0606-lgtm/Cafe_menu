@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee House ☕</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>☕ Coffee House</h1>
+  <p>Fresh Coffee & Delicious Snacks</p>
+</header>
+
+<section class="menu">
+  <h2>Coffee Menu</h2>
+  <div class="items" id="coffeeMenu"></div>
+
+  <h2>Snacks Menu</h2>
+  <div class="items" id="snacksMenu"></div>
+</section>
+
+<section class="order">
+  <h2>Your Order</h2>
+  <ul id="orderList"></ul>
+  <h3>Total: $<span id="total">0</span></h3>
+  <button onclick="checkout()">Checkout</button>
+  <button class="clear" onclick="clearOrder()">Clear Order</button>
+</section>
+
+<footer>
+  <p>© 2026 Coffee House | Made with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
